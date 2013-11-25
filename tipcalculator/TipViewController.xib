@@ -6,6 +6,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TipViewController">
             <connections>
+                <outlet property="billTextField" destination="LZd-OP-GAk" id="yVM-QS-Qed"/>
+                <outlet property="tipControl" destination="cbv-B1-Kro" id="3Ix-Qd-4H2"/>
+                <outlet property="tipLabel" destination="Pa4-97-Six" id="1ZL-Ow-6dj"/>
+                <outlet property="totalLabel" destination="26b-d2-rHW" id="Brs-Uv-6oT"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -63,11 +67,23 @@
                         <segment title="15%"/>
                         <segment title="20%"/>
                     </segments>
+                    <connections>
+                        <action selector="onTap:" destination="-1" eventType="valueChanged" id="sxx-o0-Xan"/>
+                    </connections>
                 </segmentedControl>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="1bx-E7-JTz" appends="YES" id="kOg-WS-HHt"/>
+            </connections>
         </view>
+        <tapGestureRecognizer id="1bx-E7-JTz">
+            <connections>
+                <action selector="onTap:" destination="-1" id="Siu-Un-Pqu"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
 </document>
