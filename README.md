@@ -1,4 +1,4 @@
-An uber simple tip calculator app hacked up to satisfy codepath.com's pre-req
+An uber simple tip calculator app hacked up for codepath.com's pre-req
 
 ![screen 1][1]
 ![screen 2][2]
