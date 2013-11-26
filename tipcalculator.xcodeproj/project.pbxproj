@@ -452,6 +452,7 @@
 				BF3CE2D51841FED100C928D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF3CE2D61841FED100C928D0 /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +461,7 @@
 				BF3CE2D81841FED100C928D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
